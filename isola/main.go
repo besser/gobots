@@ -17,6 +17,5 @@ func (p position) isNeighbour(x, y int) (is bool) {
 }
 
 func main() {
-	player := position{1, 1}
-	fmt.Println(player.isNeighbour(1, 1))
+	fmt.Println("Hello, Bots!")
 }
