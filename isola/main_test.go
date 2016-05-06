@@ -19,7 +19,7 @@ func TestIsNeighbour(t *testing.T) {
 	for _, test := range testCasesIsNeighbour {
 		observed := player.isNeighbour(test.x, test.y)
 		if observed != test.expected {
-			t.Fatalf("The result expected of test was '%t' for PlayerXY(%d,%d) and the new position XY(%d,%d)!",
+			t.Fatalf("The expected result of the test was '%t', for PlayerXY(%d,%d) and the new position XY(%d,%d)!",
 				test.expected, player.x, player.y, test.x, test.y)
 		}
 	}
